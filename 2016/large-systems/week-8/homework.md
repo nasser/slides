@@ -19,4 +19,4 @@ Based on your experience with the midterm, design a better specification for a n
 
 Sign up for an [Amazon Web Services (AWS) account](https://aws.amazon.com/). It is free, and it is the platform we will be using together for the rest of the semester. Make sure you can see the console before you get to class, and we will work together to set up the particular services we need.
 
-![](console.png)
+![](../console.png)
