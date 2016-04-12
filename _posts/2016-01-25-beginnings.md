@@ -48,11 +48,11 @@ What Large Systems are you building? Have something in mind for the midterm or f
 ### Network View
 The Large System we interact with most frequently is the internet. We will be looking at different ways to study the way information moves through the network, but the simplest way is to use your browser. Modern browsers will expose statistics on their incoming and outgoing traffic. To see this in Chrome, go to `View > Developer > Developer Tools`.
 
-![]({{ site.url }}/images/network-view-1.png)
+![]({{ site.github.url }}/images/network-view-1.png)
 
 Then click the Network tab.
 
-![]({{ site.url }}/images/network-view-2.png)
+![]({{ site.github.url }}/images/network-view-2.png)
 
 [Firefox users should follow this guide](https://developer.mozilla.org/en-US/docs/Tools/Network_Monitor).
 

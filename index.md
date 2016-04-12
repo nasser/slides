@@ -5,14 +5,8 @@ layout: page
 
 I teach at a few schools. These are my class blogs.
 
-<!-- url: {{site.url}} -->
-<!-- github.url: {{site.github.url}} -->
-<!-- baseurl: {{site.baseurl}} -->
-<!-- permalink: {{site.permalink}} -->
-<!-- flim: {{site.flim}} -->
-
 ### 2016
-* [Parsons Large Systems]({{ site.url }}/2016/large-systems)
+* [Parsons Large Systems]({{ site.github.url }}/2016/large-systems)
 
 ### 2015
 * [NYU Poly Game Design Studio](http://dm6153.tumblr.com/)
