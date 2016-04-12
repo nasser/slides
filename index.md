@@ -6,6 +6,7 @@ layout: page
 I teach at a few schools. These are my class blogs.
 
 <!-- url: {{site.url}} -->
+<!-- github.url: {{site.github.url}} -->
 <!-- baseurl: {{site.baseurl}} -->
 <!-- permalink: {{site.permalink}} -->
 <!-- flim: {{site.flim}} -->
