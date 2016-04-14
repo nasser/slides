@@ -1,3 +1,2 @@
-url: nas.sr
-baseurl: teaching/
-permalink: :title
+url: http://nas.sr/teaching/
+permalink: pretty
