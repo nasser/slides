@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Back and Forth</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="masthead">
+  <h1 class="masthead-title--small">
+    <a href="/2016/large-systems">
+      parsons
+      large systems
+      spring
+      2016
+    </a>
+  </h1>
+</header>
+<div class="content post">
+  <h1 class="post-title">Back and Forth</h1>
+  <div class="post-date">
+    <time>16 Feb 2016</time>
+  </div>
+  <p><strong>Due</strong> 23 Feb 2016</p>
+
+<p><img src="http://thecircular.org/wp-content/uploads/2014/04/Two-way-communication.jpg" alt="" /></p>
+
+<p>In pairs, use OSC to create a two way networked experience. The experience can be anything as long as two seperate machines communicate using OSC. Examples include: chat applications, <a href="https://en.wikipedia.org/wiki/Pong">two</a> <a href="https://en.wikipedia.org/wiki/Tetris">player</a> [games](https://en.wikipedia.org/wiki/Nidhogg_(video_game), interactive installations.</p>
+
+<p>You are free to use any programming language, but the most straightforward approach is to use <a href="https://processing.org/">Processing</a> and the <a href="http://www.sojamo.de/libraries/oscP5/">oscP5</a> library.</p>
+
+<h3 id="install-oscp5-in-processing">Install oscP5 in Processing</h3>
+
+<p>In Processing, select Sketch &gt; Import Library… &gt; Add Library…</p>
+
+<p><img src="http://i.imgur.com/0p3PrnH.png" alt="" /></p>
+
+<p>Search for oscP5, select it, and click install</p>
+
+<p><img src="http://imgur.com/G041rkd.png" alt="" /></p>
+
+<h3 id="use-oscp5-in-processing">Use oscP5 in Processing</h3>
+
+<p>Sketches that use oscP5 begin with</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>import oscP5.*;
+import netP5.*;
+</code></pre>
+</div>
+
+<h3 id="finding-your-ip">Finding your IP</h3>
+
+<p>You will need to know the IP address of your machines.</p>
+
+<ul>
+  <li><a href="http://osxdaily.com/2010/11/21/find-ip-address-mac/">OSX</a></li>
+  <li><a href="http://windows.microsoft.com/en-us/windows/find-computers-ip-address#1TC=windows-7">Windows</a></li>
+  <li><a href="http://www.cyberciti.biz/faq/bash-shell-command-to-find-get-ip-address/">Linux</a></li>
+</ul>
+
+<h3 id="oscp5-examples">oscP5 examples</h3>
+
+<ul>
+  <li><a href="http://www.sojamo.de/libraries/oscP5/examples/oscP5message/oscP5message.pde"><code class="highlighter-rouge">oscP5message</code></a> demonstrates different kinds of data that can be put in a message</li>
+  <li><a href="http://www.sojamo.de/libraries/oscP5/examples/oscP5parsing/oscP5parsing.pde"><code class="highlighter-rouge">oscP5parsing</code></a> demonstrates sending data and unpacking recieved data</li>
+  <li><a href="http://www.sojamo.de/libraries/oscP5/examples/oscP5broadcaster/oscP5broadcaster.pde"><code class="highlighter-rouge">oscP5broadcaster</code></a> demonstrates a more intricate protocol with multiple messages</li>
+</ul>
+
+<h3 id="submission">Submission</h3>
+
+<p>Email me your code as an attachment or a link before Tuesday to get feedback on it. Come to class prepared to present your work, discuss your expeirence, the problems you faced, how you overcame them.</p>
+
+</div>
+
+  </div>
+</body>
+</html>

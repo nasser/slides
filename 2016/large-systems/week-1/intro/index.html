@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Beginnings &amp; Homework due Feb 2</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="masthead">
+  <h1 class="masthead-title--small">
+    <a href="/2016/large-systems">
+      parsons
+      large systems
+      spring
+      2016
+    </a>
+  </h1>
+</header>
+<div class="content post">
+  <h1 class="post-title">Beginnings &amp; Homework due Feb 2</h1>
+  <div class="post-date">
+    <time>25 Jan 2016</time>
+  </div>
+  <p><img src="http://cdn.theatlantic.com/assets/media/img/mt/2015/10/IMG_2731/lead_960.jpg" alt="" />
+<cite>From <a href="http://www.theatlantic.com/technology/archive/2015/11/where-was-the-internet-born/413221/">The Room Where the Internet Was Born</a> by <a href="http://lifewinning.com/">Ingrid Burrington</a>, photo by <a href="http://www.samkronick.com/">Sam Kronick</a></cite></p>
+
+<p>Welcome! I am sorry I could not be with you for your first class. I have included in writing what would have been my introductory lecture. See you all next week!</p>
+
+<h2 id="what-is-a-large-system">What is a “Large System”?</h2>
+<p>I define a system to be “Large” if <em>software is executing simultaneously in more than one place and must be coordinated</em>. Examples include:</p>
+
+<ul>
+  <li>Multiplayer video games</li>
+  <li>Sensors in the field that report data back to a server</li>
+  <li>Installations that poll web APIs</li>
+  <li>Swarms of devices</li>
+  <li>Custom hardware that communicates with computers</li>
+  <li>Email</li>
+</ul>
+
+<p>“Large System” is about as formal a term as “Creative Coding” is. The closest concept in Computer Science is a <a href="https://en.wikipedia.org/wiki/Distributed_computing">Distributed System</a>.</p>
+
+<h2 id="why-this-class">Why this class?</h2>
+<p>This class was formed on the observation that students tend to build large interconnected projects, but recieve little to no instruction in how to reason about such systems. The fact is that there is a <em>wealth</em> of literature going back decades on the subject. Indeed, one of the earliest things we tried to do with computers was get them to talk. <a href="https://en.wikipedia.org/wiki/Communicating_sequential_processes">CSP</a>, a conceptual model of concurrency that is gaining popularity with the Go programing language and Clojure’s core.async library, was put forth in a <a href="http://spinroot.com/courses/summer/Papers/hoare_1978.pdf">1978 paper</a>. The so-called <a href="https://www.youtube.com/watch?v=yJDv-zdhzMY">“mother of all demos”</a> featured video conferencing and collaborative document editing in 1968 (!).</p>
+
+<p>The hope is to bring this thinking to you, the DT student, to empower your practice. I intend to expose you to the conceptual and technical tools you need to coordinate multiple devices in a hetrogenous network.</p>
+
+<p>Another way to think of this class is by analogy. As Arduino and the maker community are to electrical engineering, and openFrameworks and creative coding are to software engineering, this class (humbly) aspires to be to network engineering. I want you to understand what you are doing, be able to design a coherent network, but always in the service of your greater vision and goals.</p>
+
+<h2 id="who-is-this-class-for">Who is this class for?</h2>
+<p>If you are working on projects that can be classified as Large, this class will give you the foundation to build them with less grasping in the dark. Many multi-device installations will benifit, as will online experiences and games.</p>
+
+<p>There will be a lot of code to write, in multiple languages. Indeed, one of the natural side effects of running different code on different machines is that they will be written in different languages, but yet must communicate somehow. We will be using Processing, JavaScript, and Arduino/C++ primarily. Proficiency helps, but fluency is not required. You are also welcome to use whatever language you are comfortable with as long as it can participate in our networks correctly. As we will see, a robust network must be able to handle new and unforeseen actors.</p>
+
+<h2 id="who-am-i">Who am I?</h2>
+<p>You can read about me and my work <a href="http://nas.sr">on my site</a>, but for the direct purposes of this class my experience with Large Systems includes Twitter bots, social media powered video games, data visualizations pulling from multiple sources, video game backends, and about a decade of web development experience. My more public focuses have been video games and programming language design, but networking has always been the ace up my sleve and this knowledge has saved me more than once. By the end of the semester, I hope you all too have similar aces up your sleves, or at least some other high value card.</p>
+
+<h2 id="homework">Homework</h2>
+
+<h3 id="your-practice">Your Practice</h3>
+<p>What Large Systems are you building? Have something in mind for the midterm or final? We will go around next week getting caught up on what everyone is working on, so be prepared to talk about your projects.</p>
+
+<h3 id="network-view">Network View</h3>
+<p>The Large System we interact with most frequently is the internet. We will be looking at different ways to study the way information moves through the network, but the simplest way is to use your browser. Modern browsers will expose statistics on their incoming and outgoing traffic. To see this in Chrome, go to <code class="highlighter-rouge">View &gt; Developer &gt; Developer Tools</code>.</p>
+
+<p><img src="/images/network-view-1.png" alt="" /></p>
+
+<p>Then click the Network tab.</p>
+
+<p><img src="/images/network-view-2.png" alt="" /></p>
+
+<p><a href="https://developer.mozilla.org/en-US/docs/Tools/Network_Monitor">Firefox users should follow this guide</a>.</p>
+
+<p>These tools will expose each piece of data being requested by your browser. Visit a few sites with the network view open. What do you see? Does anything surprise you? What does a news site look like compared to a video streaming site? What does your own site look like? Come to class prepared to discuss.</p>
+
+<h3 id="largest-systems">Largest Systems</h3>
+<p>Find examples of the “Largest” systems you can think of. What does Largest even mean? How were these systems built? Who built them? Who uses them? What are their goals? Have they achieved them? Come to class prepared to discuss.</p>
+
+</div>
+
+  </div>
+</body>
+</html>
